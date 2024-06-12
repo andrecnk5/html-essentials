@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, tutorial, aprendizado, 2024" />
+    <meta
+      name="description"
+      content="Exemplo de layout contendo todas as principais tags HTML usadas em 2024."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Exemplo de Layout HTML 2024</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header,
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+      }
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      nav ul li {
+        display: inline;
+        margin-right: 10px;
+      }
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+      main {
+        padding: 20px;
+      }
+      section,
+      article,
+      aside,
+      nav {
+        margin-bottom: 20px;
+      }
+      fieldset {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      legend {
+        font-weight: bold;
+      }
+      label {
+        display: block;
+        margin-top: 5px;
+      }
+      pre {
+        font-family: "Courier New", Courier, monospace;
+        color: #2d2d2d;
+        width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        padding: 10px;
+        overflow: auto;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      .highlight {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu Portfólio</h1>
+      <nav>
+        <ul>
+          <li><a href="#introducao">Introdução</a></li>
+          <li><a href="#artigos">Artigos</a></li>
+          <li><a href="#listas">Listas</a></li>
+          <li><a href="#tabelas">Tabelas</a></li>
+          <li><a href="#formularios">Formulários</a></li>
+          <li><a href="#midia">Mídia</a></li>
+          <li><a href="#outros">Outros</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="introducao">
+        <h2>Introdução</h2>
+        <p>
+          Bem-vindo ao meu portfólio. Este site demonstra o uso de várias tags
+          HTML importantes em 2024.
+        </p>
+      </section>
+
+      <section id="artigos">
+        <h2>Artigos</h2>
+        <article>
+          <h3>Artigo Exemplo</h3>
+          <p>Este é um exemplo de artigo usando a tag &lt;article&gt;.</p>
+        </article>
+        <aside>
+          <p>Conteúdo relacionado ou tangencial, como uma barra lateral.</p>
+        </aside>
+      </section>
+
+      <section id="listas">
+        <h2>Listas</h2>
+        <ul>
+          <li>Item de lista não ordenada</li>
+          <li>Outro item de lista</li>
+        </ul>
+        <ol>
+          <li>Item de lista ordenada</li>
+          <li>Outro item de lista</li>
+        </ol>
+        <dl>
+          <dt>Termo de definição</dt>
+          <dd>Descrição do termo de definição</dd>
+        </dl>
+      </section>
+
+      <section id="tabelas">
+        <h2>Tabelas</h2>
+        <table>
+          <caption>
+            Tabela Exemplo
+          </caption>
+          <thead>
+            <tr>
+              <th>Cabeçalho 1</th>
+              <th>Cabeçalho 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Célula 1</td>
+              <td>Célula 2</td>
+            </tr>
+            <tr>
+              <td>Célula 3</td>
+              <td>Célula 4</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Rodapé 1</td>
+              <td>Rodapé 2</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <section id="formularios">
+        <h2>Formulários</h2>
+        <form>
+          <fieldset>
+            <legend>Informações Pessoais</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" /><br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" /><br />
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea><br />
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo">
+              <option value="masculino">Masculino</option>
+              <option value="feminino">Feminino</option></select
+            ><br />
+            <button type="submit">Enviar</button>
+          </fieldset>
+        </form>
+      </section>
+
+      <section id="midia">
+        <h2>Mídia</h2>
+        <figure>
+          <img src="imagem.jpg" alt="Descrição da imagem" />
+          <figcaption>Legenda da imagem</figcaption>
+        </figure>
+        <video controls>
+          <source src="video.mp4" type="video/mp4" />
+          Seu navegador não suporta o elemento &lt;video&gt;.
+        </video>
+        <audio controls>
+          <source src="audio.mp3" type="audio/mp3" />
+          Seu navegador não suporta o elemento &lt;audio&gt;.
+        </audio>
+      </section>
+
+      <section id="outros">
+        <h2>Outros</h2>
+        <details>
+          <summary>Mais Informações</summary>
+          <p>
+            Este é um parágrafo dentro de um elemento &lt;details&gt; que pode
+            ser expandido ou recolhido pelo usuário.
+          </p>
+        </details>
+        <p>
+          Texto com uma abreviação:
+          <abbr title="Hypertext Markup Language">HTML</abbr>.
+        </p>
+        <mark>Este texto está destacado.</mark>
+        <time datetime="2024-06-11">11 de junho de 2024</time>
+        <canvas id="meuCanvas" width="200" height="100"
+          >Seu navegador não suporta o elemento &lt;canvas&gt;.</canvas
+        >
+        <noscript>JavaScript está desativado no seu navegador.</noscript>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Meu Portfólio. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>

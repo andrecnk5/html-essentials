@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, tutorial, aprendizado" />
+    <meta
+      name="description"
+      content="Tutorial sobre as principais tags HTML."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tutorial HTML</title>
+  </head>
+  <body>
+    <h3>Outros</h3>
+    <ol>
+      <li>
+        <b>&lt;details&gt;</b> - Define detalhes adicionais que o usuário pode
+        abrir e fechar.
+      </li>
+      <li>
+        <b>&lt;summary&gt;</b> - Define um cabeçalho visível para um elemento
+        &lt;details&gt;.
+      </li>
+      <li><b>&lt;br&gt;</b> - Insere uma quebra de linha.</li>
+      <li><b>&lt;abbr&gt;</b> - Define uma abreviação ou um acrônimo.</li>
+      <li><b>&lt;mark&gt;</b> - Destaca texto que deve ser realçado.</li>
+      <li><b>&lt;nav&gt;</b> - Define um conjunto de links de navegação.</li>
+      <li><b>&lt;article&gt;</b> - Define um conteúdo independente.</li>
+      <li>
+        <b>&lt;section&gt;</b> - Define uma seção genérica de um documento.
+      </li>
+      <li>
+        <b>&lt;aside&gt;</b> - Define conteúdo tangencial, como barras laterais.
+      </li>
+      <li><b>&lt;time&gt;</b> - Define uma hora ou data.</li>
+      <li><b>&lt;main&gt;</b> - Define o conteúdo principal do documento.</li>
+      <li>
+        <b>&lt;figure&gt;</b> - Agrupa conteúdo de mídia com uma legenda
+        opcional.
+      </li>
+      <li>
+        <b>&lt;figcaption&gt;</b> - Fornece uma legenda para o &lt;figure&gt;.
+      </li>
+      <li>
+        <b>&lt;picture&gt;</b> - Contêiner para múltiplas fontes de imagem para
+        diferentes resoluções.
+      </li>
+      <li>
+        <b>&lt;source&gt;</b> - Define uma fonte de mídia alternada para
+        &lt;picture&gt; ou &lt;video&gt;.
+      </li>
+      <li><b>&lt;video&gt;</b> - Define um vídeo incorporado.</li>
+      <li><b>&lt;audio&gt;</b> - Define um som ou fluxo de áudio.</li>
+      <li><b>&lt;embed&gt;</b> - Incorpora conteúdo externo, como plugins.</li>
+      <li>
+        <b>&lt;object&gt;</b> - Representa um recurso externo, como uma imagem,
+        vídeo ou plugin.
+      </li>
+      <li>
+        <b>&lt;param&gt;</b> - Define parâmetros para plugins incorporados com
+        &lt;object&gt;.
+      </li>
+      <li><b>&lt;canvas&gt;</b> - Usado para desenhar gráficos via scripts.</li>
+      <li>
+        <b>&lt;noscript&gt;</b> - Define conteúdo alternativo para usuários com
+        scripts desativados.
+      </li>
+    </ol>
+    <pre>
+      <code>
+          &lt;!DOCTYPE html&gt;
+          &lt;html lang="pt-br"&gt;
+              &lt;head&gt;&lt;/head&gt;
+              &lt;body&gt;
+                  &lt;h3&gt;Outros&lt;/h3&gt;
+                  &lt;details&gt;
+                      &lt;summary&gt;Mais Informações&lt;/summary&gt;
+                      &lt;p&gt;Este é um parágrafo dentro de um elemento &lt;details&gt; que pode ser expandido ou recolhido pelo usuário.&lt;/p&gt;
+                  &lt;/details&gt;
+                  &lt;p&gt;Texto com uma abreviação: &lt;abbr title="Hypertext Markup Language"&gt;HTML&lt;/abbr&gt;.&lt;/p&gt;
+                  &lt;mark&gt;Este texto está destacado.&lt;/mark&gt;
+                  &lt;nav&gt;
+                      &lt;ul&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;Sobre&lt;/a&gt;&lt;/li&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;Contato&lt;/a&gt;&lt;/li&gt;
+                      &lt;/ul&gt;
+                  &lt;/nav&gt;
+                  &lt;article&gt;
+                      &lt;h2&gt;Artigo&lt;/h2&gt;
+                      &lt;p&gt;Este é um exemplo de artigo.&lt;/p&gt;
+                  &lt;/article&gt;
+                  &lt;section&gt;
+                      &lt;h2&gt;Seção&lt;/h2&gt;
+                      &lt;p&gt;Esta é uma seção de conteúdo.&lt;/p&gt;
+                  &lt;/section&gt;
+                  &lt;aside&gt;
+                      &lt;p&gt;Este é um conteúdo tangencial, como uma barra lateral.&lt;/p&gt;
+                  &lt;/aside&gt;
+                  &lt;time datetime="2024-06-11"&gt;11 de junho de 2024&lt;/time&gt;
+                  &lt;main&gt;
+                      &lt;h2&gt;Conteúdo Principal&lt;/h2&gt;
+                      &lt;p&gt;Este é o conteúdo principal do documento.&lt;/p&gt;
+                  &lt;/main&gt;
+                  &lt;figure&gt;
+                      &lt;img src="imagem.jpg" alt="Descrição da imagem"&gt;
+                      &lt;figcaption&gt;Legenda da imagem&lt;/figcaption&gt;
+                  &lt;/figure&gt;
+                  &lt;picture&gt;
+                      &lt;source srcset="imagem2.jpg" media="(min-width: 800px)"&gt;
+                      &lt;source srcset="imagem3.jpg" media="(min-width: 400px)"&gt;
+                      &lt;img src="imagem4.jpg" alt="Descrição da imagem"&gt;
+                  &lt;/picture&gt;
+                  &lt;video controls&gt;
+                      &lt;source src="video.mp4" type="video/mp4"&gt;
+                      Seu navegador não suporta o elemento &lt;video&gt;.
+                  &lt;/video&gt;
+                  &lt;audio controls&gt;
+                      &lt;source src="audio.mp3" type="audio/mp3"&gt;
+                      Seu navegador não suporta o elemento &lt;audio&gt;.
+                  &lt;/audio&gt;
+                  &lt;embed src="arquivo.pdf" type="application/pdf" width="600" height="400"&gt;
+                  &lt;object data="arquivo.pdf" type="application/pdf" width="600" height="400"&gt;
+                      &lt;param name="view" value="Fit"&gt;
+                      Alternativa de visualização de PDF.
+                  &lt;/object&gt;
+                  &lt;canvas id="meuCanvas" width="200" height="100"&gt;
+                      Seu navegador não suporta o elemento &lt;canvas&gt;.
+                  &lt;/canvas&gt;
+                  &lt;noscript&gt;JavaScript está desativado no seu navegador.&lt;/noscript&gt;
+              &lt;/body&gt;
+          &lt;/html&gt;
+      </code>
+    </pre>
+  </body>
+</html>

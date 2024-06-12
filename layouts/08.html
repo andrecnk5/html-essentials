@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mídia no HTML</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header,
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+      }
+      main {
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Mídia no HTML</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Importância da Mídia</h2>
+        <p>
+          Incorporar mídia como imagens, vídeos e áudios é crucial para criar
+          conteúdo rico e interativo na web. Usamos tags como
+          <code>&lt;img&gt;</code>, <code>&lt;figure&gt;</code>,
+          <code>&lt;figcaption&gt;</code>, <code>&lt;video&gt;</code>,
+          <code>&lt;audio&gt;</code>, <code>&lt;source&gt;</code>,
+          <code>&lt;picture&gt;</code>, <code>&lt;embed&gt;</code>,
+          <code>&lt;object&gt;</code>, <code>&lt;param&gt;</code>,
+          <code>&lt;canvas&gt;</code>, e <code>&lt;noscript&gt;</code>.
+        </p>
+      </section>
+      <section>
+        <h2>Exemplo</h2>
+        <pre><code>&lt;figure&gt;
+  &lt;img src="imagem.jpg" alt="Descrição da imagem"&gt;
+  &lt;figcaption&gt;Legenda da imagem&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;video controls&gt;
+  &lt;source src="video.mp4" type="video/mp4"&gt;
+  Seu navegador não suporta o elemento &lt;video&gt;.
+&lt;/video&gt;
+&lt;audio controls&gt;
+  &lt;source src="audio.mp3" type="audio/mp3"&gt;
+  Seu navegador não suporta o elemento &lt;audio&gt;.
+&lt;/audio&gt;
+&lt;embed src="arquivo.pdf" type="application/pdf" width="600" height="400"&gt;
+&lt;object data="arquivo.pdf" type="application/pdf" width="600" height="400"&gt;
+  &lt;param name="view" value="Fit"&gt;
+  Alternativa de visualização de PDF.
+&lt;/object&gt;
+&lt;canvas id="meuCanvas" width="200" height="100"&gt;
+  Seu navegador não suporta o elemento &lt;canvas&gt;.
+&lt;/canvas&gt;
+&lt;noscript&gt;JavaScript está desativado no seu navegador.&lt;/noscript&gt;</code></pre>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Mídia no HTML</p>
+    </footer>
+  </body>
+</html>

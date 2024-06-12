@@ -1,0 +1,40 @@
+pre {
+  font-family: "Courier New", Courier, monospace;
+  color: #2d2d2d;
+  width: 90%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+/* form */
+fieldset {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+legend {
+  font-weight: bold;
+}
+label {
+  display: block;
+  margin-top: 5px;
+}

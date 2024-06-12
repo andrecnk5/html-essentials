@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, tutorial, aprendizado" />
+    <meta
+      name="description"
+      content="Tutorial sobre as principais tags HTML."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tutorial HTML</title>
+  </head>
+  <body>
+    <h3>Formulários e Entradas</h3>
+    <ol>
+      <li>
+        <b>&lt;form&gt;</b> - Define um formulário para entrada do usuário.
+      </li>
+      <li><b>&lt;input&gt;</b> - Define um campo de entrada.</li>
+      <li><b>&lt;textarea&gt;</b> - Define uma área de texto.</li>
+      <li><b>&lt;button&gt;</b> - Define um botão.</li>
+      <li><b>&lt;select&gt;</b> - Define uma lista suspensa.</li>
+      <li>
+        <b>&lt;option&gt;</b> - Define as opções dentro de uma lista suspensa.
+      </li>
+      <li>
+        <b>&lt;label&gt;</b> - Define um rótulo para um elemento &lt;input&gt;.
+      </li>
+      <li>
+        <b>&lt;fieldset&gt;</b> - Agrupa elementos relacionados em um
+        formulário.
+      </li>
+      <li>
+        <b>&lt;legend&gt;</b> - Define uma legenda para um &lt;fieldset&gt;.
+      </li>
+      <li>
+        <b>&lt;datalist&gt;</b> - Define uma lista de opções pré-definidas para
+        um campo de entrada.
+      </li>
+      <li>
+        <b>&lt;output&gt;</b> - Representa o resultado de um cálculo ou ação.
+      </li>
+      <li><b>&lt;progress&gt;</b> - Representa o progresso de uma tarefa.</li>
+      <li>
+        <b>&lt;meter&gt;</b> - Representa uma medida escalar dentro de um
+        intervalo conhecido.
+      </li>
+    </ol>
+    <pre>
+      <code>
+          &lt;!DOCTYPE html&gt;
+          &lt;html lang="pt-br"&gt;
+              &lt;head&gt;&lt;/head&gt;
+              &lt;body&gt;
+                  &lt;h3&gt;Formulários e Entradas&lt;/h3&gt;
+                  &lt;form&gt;
+                      &lt;fieldset&gt;
+                          &lt;legend&gt;Informações Pessoais&lt;/legend&gt;
+                          &lt;label for="nome"&gt;Nome:&lt;/label&gt;
+                          &lt;input type="text" id="nome" name="nome"&gt;&lt;br&gt;
+                          &lt;label for="email"&gt;Email:&lt;/label&gt;
+                          &lt;input type="email" id="email" name="email"&gt;&lt;br&gt;
+                          &lt;label for="mensagem"&gt;Mensagem:&lt;/label&gt;
+                          &lt;textarea id="mensagem" name="mensagem"&gt;&lt;/textarea&gt;&lt;br&gt;
+                          &lt;label for="sexo"&gt;Sexo:&lt;/label&gt;
+                          &lt;select id="sexo" name="sexo"&gt;
+                              &lt;option value="masculino"&gt;Masculino&lt;/option&gt;
+                              &lt;option value="feminino"&gt;Feminino&lt;/option&gt;
+                          &lt;/select&gt;&lt;br&gt;
+                          &lt;button type="submit"&gt;Enviar&lt;/button&gt;
+                      &lt;/fieldset&gt;
+                      &lt;fieldset&gt;
+                          &lt;legend&gt;Outras Informações&lt;/legend&gt;
+                          &lt;label for="nascimento"&gt;Data de Nascimento:&lt;/label&gt;
+                          &lt;input type="date" id="nascimento" name="nascimento"&gt;&lt;br&gt;
+                          &lt;label for="arquivo"&gt;Enviar Arquivo:&lt;/label&gt;
+                          &lt;input type="file" id="arquivo" name="arquivo"&gt;&lt;br&gt;
+                          &lt;label for="cor"&gt;Escolha uma cor:&lt;/label&gt;
+                          &lt;input type="color" id="cor" name="cor"&gt;&lt;br&gt;
+                          &lt;label for="numero"&gt;Número Favorito:&lt;/label&gt;
+                          &lt;input type="number" id="numero" name="numero"&gt;&lt;br&gt;
+                          &lt;label for="range"&gt;Escolha um valor:&lt;/label&gt;
+                          &lt;input type="range" id="range" name="range"&gt;&lt;br&gt;
+                          &lt;progress value="70" max="100"&gt;70%&lt;/progress&gt;&lt;br&gt;
+                          &lt;meter value="2" min="0" max="10"&gt;2 de 10&lt;/meter&gt;&lt;br&gt;
+                          &lt;label for="pesquisa"&gt;Pesquisar:&lt;/label&gt;
+                          &lt;input type="search" id="pesquisa" name="pesquisa"&gt;&lt;br&gt;
+                          &lt;label for="datalist"&gt;Escolha uma opção:&lt;/label&gt;
+                          &lt;input list="opcoes" id="datalist" name="datalist"&gt;
+                          &lt;datalist id="opcoes"&gt;
+                              &lt;option value="Opção 1"&gt;
+                              &lt;option value="Opção 2"&gt;
+                              &lt;option value="Opção 3"&gt;
+                          &lt;/datalist&gt;&lt;br&gt;
+                          &lt;output name="resultado" for="numero range"&gt;Resultado&lt;/output&gt;
+                      &lt;/fieldset&gt;
+                  &lt;/form&gt;
+              &lt;/body&gt;
+          &lt;/html&gt;
+      </code>
+    </pre>
+  </body>
+</html>

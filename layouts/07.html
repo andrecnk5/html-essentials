@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários e Entradas no HTML</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header,
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+      }
+      main {
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Formulários e Entradas no HTML</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Importância dos Formulários</h2>
+        <p>
+          Formulários são essenciais para a interação do usuário com a página
+          web, permitindo a entrada e envio de dados. Incluem tags como
+          <code>&lt;form&gt;</code>, <code>&lt;input&gt;</code>,
+          <code>&lt;textarea&gt;</code>, <code>&lt;button&gt;</code>,
+          <code>&lt;select&gt;</code>, <code>&lt;option&gt;</code>,
+          <code>&lt;label&gt;</code>, <code>&lt;fieldset&gt;</code>,
+          <code>&lt;legend&gt;</code>, <code>&lt;datalist&gt;</code>,
+          <code>&lt;output&gt;</code>, <code>&lt;progress&gt;</code>, e
+          <code>&lt;meter&gt;</code>.
+        </p>
+      </section>
+      <section>
+        <h2>Exemplo</h2>
+        <pre><code>&lt;form&gt;
+  &lt;fieldset&gt;
+    &lt;legend&gt;Informações Pessoais&lt;/legend&gt;
+    &lt;label for="nome"&gt;Nome:&lt;/label&gt;
+    &lt;input type="text" id="nome" name="nome"&gt;&lt;br&gt;
+    &lt;label for="email"&gt;Email:&lt;/label&gt;
+    &lt;input type="email" id="email" name="email"&gt;&lt;br&gt;
+    &lt;label for="mensagem"&gt;Mensagem:&lt;/label&gt;
+    &lt;textarea id="mensagem" name="mensagem"&gt;&lt;/textarea&gt;&lt;br&gt;
+    &lt;label for="sexo"&gt;Sexo:&lt;/label&gt;
+    &lt;select id="sexo" name="sexo"&gt;
+      &lt;option value="masculino"&gt;Masculino&lt;/option&gt;
+      &lt;option value="feminino"&gt;Feminino&lt;/option&gt;
+    &lt;/select&gt;&lt;br&gt;
+    &lt;button type="submit"&gt;Enviar&lt;/button&gt;
+  &lt;/fieldset&gt;
+  &lt;fieldset&gt;
+    &lt;legend&gt;Outras Informações&lt;/legend&gt;
+    &lt;label for="nascimento"&gt;Data de Nascimento:&lt;/label&gt;
+    &lt;input type="date" id="nascimento" name="nascimento"&gt;&lt;br&gt;
+    &lt;label for="arquivo"&gt;Enviar Arquivo:&lt;/label&gt;
+    &lt;input type="file" id="arquivo" name="arquivo"&gt;&lt;br&gt;
+    &lt;label for="cor"&gt;Escolha uma cor:&lt;/label&gt;
+    &lt;input type="color" id="cor" name="cor"&gt;&lt;br&gt;
+    &lt;label for="numero"&gt;Número Favorito:&lt;/label&gt;
+    &lt;input type="number" id="numero" name="numero"&gt;&lt;br&gt;
+    &lt;label for="range"&gt;Escolha um valor:&lt;/label&gt;
+    &lt;input type="range" id="range" name="range"&gt;&lt;br&gt;
+    &lt;progress value="70" max="100"&gt;70%&lt;/progress&gt;&lt;br&gt;
+    &lt;meter value="2" min="0" max="10"&gt;2 de 10&lt;/meter&gt;&lt;br&gt;
+    &lt;label for="pesquisa"&gt;Pesquisar:&lt;/label&gt;
+    &lt;input type="search" id="pesquisa" name="pesquisa"&gt;&lt;br&gt;
+    &lt;label for="datalist"&gt;Escolha uma opção:&lt;/label&gt;
+    &lt;input list="opcoes" id="datalist" name="datalist"&gt;
+    &lt;datalist id="opcoes"&gt;
+      &lt;option value="Opção 1"&gt;
+      &lt;option value="Opção 2"&gt;
+      &lt;option value="Opção 3"&gt;
+    &lt;/datalist&gt;&lt;br&gt;
+    &lt;output name="resultado" for="numero range"&gt;Resultado&lt;/output&gt;
+  &lt;/fieldset&gt;
+&lt;/form&gt;</code></pre>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Formulários e Entradas no HTML</p>
+    </footer>
+  </body>
+</html>
