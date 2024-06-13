@@ -17,9 +17,7 @@
    - **<nav>**: Define a navegação do site. Contém links para as principais seções da página ou de outras páginas.
    - **<aside>**: Define conteúdo à parte do conteúdo principal, como barras laterais que contêm links relacionados, anúncios ou widgets.
 
-------
-
-
+---
 
 ### Exercícios
 
@@ -35,3 +33,7 @@
    - No `<body>`, adicione seções de conteúdo usando `<header>`, `<footer>`, `<main>`, `<article>`, `<section>`, `<nav>`, e `<aside>`.
 6. **Estilize um Elemento com CSS**
    - Crie um estilo CSS para o elemento `<pre>` e aplique uma cor de fundo clara, uma borda e arredondamento nos cantos.
+
+---
+
+[⏮️](2-metadatas.md)[⏭️](4-content-grouping.md)

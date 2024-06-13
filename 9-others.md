@@ -32,7 +32,7 @@
    - **<canvas>**: Usado para desenhar gráficos via scripts.
    - **<noscript>**: Define conteúdo alternativo para usuários com scripts desativados.
 
-------
+---
 
 ### Exercícios
 
@@ -44,3 +44,7 @@
    - Dentro do `<body>`, crie exemplos usando `<details>`, `<summary>`, `<abbr>`, `<mark>`, `<nav>`, `<article>`, `<section>`, `<aside>`, `<time>`, `<main>`, `<figure>`, `<figcaption>`, `<picture>`, `<source>`, `<video>`, `<audio>`, `<embed>`, `<object>`, `<param>`, `<canvas>`, e `<noscript>`.
 4. **Estilize os Elementos com CSS**
    - Adicione estilos CSS para os elementos, como bordas, margens, preenchimentos e alinhamento de texto.
+
+---
+
+[⏮️](8-forms.md)

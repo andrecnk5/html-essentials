@@ -20,7 +20,7 @@
    - **<col>**: Especifica atributos de coluna.
    - **<colgroup>**: Especifica um grupo de uma ou mais colunas na tabela para formatação.
 
-------
+---
 
 ### Exercícios
 
@@ -32,3 +32,7 @@
    - Dentro do `<body>`, crie uma tabela (`<table>`) com título (`<caption>`), grupo de colunas (`<colgroup>` e `<col>`), cabeçalho (`<thead>` e `<th>`), corpo (`<tbody>` e `<td>`), e rodapé (`<tfoot>` e `<td>`).
 4. **Estilize a Tabela com CSS**
    - Adicione estilos CSS para a tabela, como bordas, cores de fundo e alinhamento de texto.
+
+---
+
+[⏮️](6-lists.md)[⏭️](8-forms.md)

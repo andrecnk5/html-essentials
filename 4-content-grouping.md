@@ -14,9 +14,7 @@
    - **<figure>**: Usado para agrupar conteúdo ilustrativo, como imagens, gráficos, diagramas ou código.
    - **<figcaption>**: Define a legenda de uma `<figure>`, fornecendo uma descrição ou explicação do conteúdo da figura.
 
-------
-
-
+---
 
 ### Exercícios
 
@@ -32,3 +30,7 @@
    - No `<body>`, adicione agrupamentos de conteúdo usando `<div>`, `<span>`, `<figure>`, e `<figcaption>`.
 6. **Estilize um Elemento com CSS**
    - Crie um estilo CSS para o elemento `<pre>` e aplique uma cor de fundo clara, uma borda e arredondamento nos cantos.
+
+---
+
+[⏮️](3-section-content.md)[⏭️](5-texts-links.md)

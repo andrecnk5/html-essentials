@@ -30,9 +30,7 @@
 7. **Compatibilidade com Navegadores (`<meta http-equiv="X-UA-Compatible" content="IE=edge">`)**
    - Garante que o documento seja renderizado usando o modo mais recente disponível no Internet Explorer, garantindo compatibilidade com versões antigas.
 
-------
-
-
+---
 
 ### Exercícios
 
@@ -47,3 +45,6 @@
 5. **Estilize um Elemento com CSS**
    - Crie um estilo CSS para o elemento `<pre>` e aplique uma cor de fundo clara, uma borda e arredondamento nos cantos.
 
+---
+
+[⏮️](1-maing-tags.md)[⏭️](3-section-content.md)

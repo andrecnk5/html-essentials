@@ -16,7 +16,7 @@
    - **<dt>**: Define um termo na lista de definição. Usado dentro de `<dl>`.
    - **<dd>**: Define a descrição de um termo na lista de definição. Usado dentro de `<dl>`.
 
-------
+---
 
 ### Exercícios
 
@@ -30,3 +30,7 @@
    - Adicione uma lista de definição (`<dl>`) com dois termos (`<dt>`) e suas descrições (`<dd>`).
 5. **Estilize um Elemento com CSS**
    - Crie um estilo CSS para o elemento `<pre>` e aplique uma cor de fundo clara, uma borda e arredondamento nos cantos.
+
+---
+
+[⏮️](5-texts-links.md)[⏭️](7-tables.md)

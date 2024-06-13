@@ -23,7 +23,7 @@
    - **<progress>**: Representa o progresso de uma tarefa.
    - **<meter>**: Representa uma medida escalar dentro de um intervalo conhecido.
 
-------
+---
 
 ### Exercícios
 
@@ -37,3 +37,7 @@
    - Inclua `<input>` de vários tipos, `<textarea>`, `<select>`, `<option>`, `<label>`, `<fieldset>`, `<legend>`, `<datalist>`, `<output>`, `<progress>`, e `<meter>`.
 5. **Estilize o Formulário com CSS**
    - Adicione estilos CSS para o formulário e seus elementos, como bordas, margens, preenchimentos e alinhamento de texto.
+
+---
+
+[⏮️](8-forms.md)[⏭️](9-others.md)

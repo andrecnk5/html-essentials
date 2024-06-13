@@ -26,7 +26,7 @@
    - **<figure>**: Usado para incorporar conteúdo de mídia como imagens, diagramas e gráficos, com contexto opcional provido por `<figcaption>`.
    - **<figcaption>**: Fornece legenda para o conteúdo de `<figure>`, explicando ou contextualizando o elemento ao qual está associado.
 
-------
+---
 
 ### Exercícios
 
@@ -42,3 +42,7 @@
    - No `<body>`, adicione elementos de texto e links usando `<h1> a <h6>`, `<p>`, `<a>`, `<blockquote>`, `<cite>`, `<code>`, `<pre>`, `<strong>`, `<em>`, `<b>`, `<i>`, `<mark>`, `<time>`, `<img>`, `<figure>`, e `<figcaption>`.
 6. **Estilize um Elemento com CSS**
    - Crie um estilo CSS para o elemento `<pre>` e aplique uma cor de fundo clara, uma borda e arredondamento nos cantos.
+
+---
+
+[⏮️](4-content-grouping.md)[⏭️](5-texts-links.md)
